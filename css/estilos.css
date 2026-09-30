@@ -251,7 +251,7 @@ p {
 
 .marca {
   display: block;
-  width: min(450px, 100%);
+  height: 42px; width: auto;
   min-width: 0;
   flex: 0 1 auto;
 }
@@ -265,7 +265,7 @@ p {
 
 .marca img.logo-cambiando {
   opacity: 0;
-  transform: scale(2.97);
+  transform: scale(0.97);
 }
 
 /* Botón de hamburguesa: solo se ve en pantallas angostas.
@@ -330,11 +330,7 @@ p {
   }
 }
 
-@media (max-width: 767px) {
-  .nav a {
-    color: var(--color-papel);
-  }
-}
+
 
 /* ----------------------------------------------------------------
    6. BOTONES (llamadas a la acción)
