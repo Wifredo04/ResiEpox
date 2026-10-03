@@ -251,15 +251,19 @@ p {
 
 .marca {
   display: block;
-  height: 42px; width: auto;
   min-width: 0;
   flex: 0 1 auto;
 }
 
+/* El logo flota dentro del encabezado: altura fija (ajusta este
+   numero si lo quieres mas grande o mas chico), el ancho se
+   acomoda solo sin deformarse, y nunca se sale del espacio
+   blanco del header. */
 .marca img {
-  width: 100%;
-  max-width: 450px;
-  height: auto;
+  display: block;
+  height: 64px;
+  width: auto;
+  max-width: 100%;
   transition: opacity 0.28s ease, transform 0.18s ease;
 }
 
